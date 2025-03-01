@@ -1,0 +1,59 @@
+/**
+ * LinkedIn Video Blocker Styles
+ */
+
+/* Styles für blockierte Videos */
+.linkedin-video-blocked {
+  position: relative;
+}
+
+.video-blocked-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f6f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  min-height: 100px;
+  margin: 12px 0;
+  padding: 16px;
+}
+
+.blocked-message {
+  color: #0077B5;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Verstecke Video-Container */
+.video-container-blocked {
+  display: none !important;
+}
+
+/* Verstecke Video-Elemente */
+.linkedin-video-blocked video {
+  display: none !important;
+}
+
+/* Verstecke Video-Steuerelemente */
+.linkedin-video-blocked .video-controls,
+.linkedin-video-blocked .video-player__controls {
+  display: none !important;
+}
+
+/* Zusätzliche Selektoren für LinkedIn-spezifische Video-Elemente */
+.linkedin-video-blocked .attributed-video-content__player-container,
+.linkedin-video-blocked div[data-id^="video-urn"],
+.linkedin-video-blocked .feed-shared-update-v2__content-wrapper:has(video) {
+  position: relative;
+}
+
+/* Verhindern von Autoplay durch Verstecken von autoplay-Attributen */
+video[autoplay="true"] {
+  display: none !important;
+}

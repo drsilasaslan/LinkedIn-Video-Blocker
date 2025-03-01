@@ -22,6 +22,11 @@ Eine Chrome-Erweiterung, die Video-Posts auf LinkedIn komplett ausblendet für e
 
 Klicken Sie einfach auf das LinkedIn Video Blocker-Symbol in Ihrer Chrome-Symbolleiste und aktivieren Sie den Blocker mit einem Klick auf die Schaltfläche. Die Erweiterung blendet dann alle Posts mit Videos im LinkedIn-Feed aus.
 
+## Bugs
+- **Langsame Ladezeiten**: Manchmal kann es vorkommen, dass Filme oder Inhalte etwas länger zum Laden benötigen.
+- **Automatisches Laden der neuesten Beiträge**: In einigen Fällen werden die neuesten Beiträge nicht automatisch geladen. Falls das passiert, kann man einfach auf **"Weitere Beiträge anzeigen"** klicken, um die neuesten Inhalte manuell zu laden.
+- **Unregelmäßiges Auftreten**: Diese Probleme treten nicht immer auf, sondern nur gelegentlich. Insgesamt funktioniert die Erweiterung jedoch stabil und zuverlässig.
+
 ## Technische Details
 
 Die Erweiterung nutzt folgende Technologien und Methoden:
